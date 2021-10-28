@@ -1,0 +1,525 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 400;
+}
+/*common css end*/
+/*header part start*/
+.header{
+	padding: 50px 0px 0px 0px;
+	background: url(../images/banner_main.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 90%;
+}
+.header_content{
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.navigation{
+	width: 60%;
+	float: right;
+}
+.navigation ul{
+	margin: 0;
+	float: right;
+}
+.navigation ul li{
+	list-style: none;
+	float: left;
+
+}
+.navigation ul li a{
+	padding-bottom: 5px;
+	font-size: 20.83px;
+	color: #3d2514;
+	margin-left: 60px;
+	text-decoration: none;
+	letter-spacing: 4px;
+	border-bottom: 2px solid transparent;
+	transition: .3s;
+	display: inline-block;
+}
+.navigation ul li a:hover{
+	border-bottom: 2px solid #3d2514;
+}
+.phone{}
+.phone li{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #3d2514;
+}
+.phone img{
+	margin-right: 10px;
+	width: 28px;
+}
+.menu{
+	margin-top: 25px !important;
+}
+/*header part end*/
+/*banner part start*/
+.banner{
+	padding: 140px 0px 70px 0px;
+	background: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.banner_content{
+	overflow: hidden;
+}
+.banner_text{
+	margin-top: 60px;
+	width: 45%;
+	float: left;
+}
+.banner_text h1{
+	margin: 0;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 100px;
+	color: #3d2514;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.banner_text h2{
+	margin: 0;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	color: #3d2514;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.h3_border{
+	margin: 0;
+	padding: 7px 10px;
+	font-weight: 400;
+	font-size: 23.65px;
+	color: #3d2514;
+	border: 2px dashed #3d2514;
+	display: inline-block;
+}
+.banner_img{
+	margin-left: 5%;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.group_img{
+	width: 100%;
+
+	
+}
+.group_img img{
+	width: 100%;
+}
+.level{
+	position: absolute;
+	top: 65%;
+	left: 0%;
+}
+.price{
+	position: relative;
+}
+.price_text{
+	position: absolute;
+    top: 15%;
+    left: 26%;
+}
+.price_text h4{
+	margin: 0;
+	font-size: 65px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.amount{
+	font-size: 30px;
+}
+.only{
+	margin: 0;
+    margin-top: -15px;
+    font-size: 35px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+/*banner part end*/
+/*category part start*/
+.category{
+	padding: 75px 0px;
+}
+.wrapper2{
+	margin: 0 auto;
+	width: 85%;
+}
+.cat_content{
+	overflow: hidden;
+}
+.cat_left{
+	width: 48%;
+	height: 420px;
+	float: left;
+	background: url(../images/category1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+}
+.c_h3{
+	margin: 30px 0px 0px 30px;
+	font-size: 24px;
+	font-weight: 400;
+	color: #ffffff;
+
+}
+.c_h1{
+	margin: 0px 0px 0px 30px;
+	font-size: 40px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 40px;
+}
+.left_content{}
+.cat_right{
+	width: 48%;
+	float: right;
+}
+.cat_top{
+	margin-bottom: 27px;
+	padding-top: 5px;
+	height: 192px;
+	background: url(../images/category2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+}
+.cat_bottom{
+	padding-top: 5px;
+	height: 192px;
+	background: url(../images/category3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+}
+/*category part end*/
+/*enjoy part start*/
+.enjoy{
+	padding-bottom: 60px;
+}
+.en_content{
+	text-align: center;
+}
+.en_content button{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+	font-weight: 400;
+	color: #3d2514;
+	background-color: #FFC135;
+	width: 220px;
+	height: 50px;
+	border: none;
+	transition: .3s;
+}
+.en_content button:hover{
+	color: #ffffff;
+	background-color: #DF1C1C;
+}
+.en_content h1{
+	margin: 25px 0px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	font-weight: 400;
+	color: #3d2514;
+	text-transform: uppercase;
+}
+.all_p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	line-height: 28px;
+	text-transform: none ;
+}
+/*enjoy part finish*/
+/*burger start*/
+.burger{
+	padding-bottom: 70px;
+}
+.bur_content{
+	overflow: hidden;
+}
+.bur_singel{
+	width: 28%;
+	float: left;
+	text-align: center;
+}
+.bur_m{
+	margin: 0% 8%;
+}
+.bur_singel img{
+	width: 90%;
+}
+.bur_singel h1{
+	margin: 0;
+	font-size: 37px;
+	font-weight: 400;
+	color: #3d2514;
+}
+.bur_singel p{
+	margin: 10px 0px 35px 0px;
+	line-height: 25px;
+}
+.bur_singel button{
+	width: 200px;
+	height: 60px;
+	border: none;
+	background-color: #DF1C1C;
+	transition: .3s;
+}
+.bur_singel button:hover{
+	background-color: #3d2514;
+}
+.bur_singel button a{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	color: #ffffff;
+	text-decoration: none;
+	transition: .3s;
+}
+/*burger end*/
+/*event part start*/
+.event{
+	padding: 40px 0px 70px;
+}
+.eve_content{
+	padding: 30px;
+	overflow: hidden;
+	box-shadow: 0px 8px 20px 1px rgba(77,77,77,0.5);
+}
+.eve_left{
+	margin-top: 35px;
+	width: 45%;
+	float: left;
+}
+.eve_left h3{
+	margin: 0;
+	font-size: 29px;
+	font-weight: 400;
+	color: #3d3d3d;
+}
+.eve_left h1{
+	margin: 0;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 41px;
+	font-weight: 400;
+	color: #3d2514;
+	text-transform: uppercase;
+}
+.eve_left p{
+	margin: 20px 0px;
+}
+.eve_right{
+	width: 53%;
+	float: right;
+}
+.eve_img{
+	
+}
+.eve_img img{
+	width: 100%;
+}
+/*event part end*/
+/*booking part start*/
+.booking{
+	padding: 20px 0px 70px 0px;
+	position: relative;
+}
+.wrapper3{
+	margin: 0 auto;
+	width: 70%;
+}
+.boo_content{
+	text-align: center;
+}
+.boo_content h3{
+	margin: 0;
+	font-size: 29px;
+	font-weight: 400;
+	color: #3d2514;
+}
+.boo_content h1{
+	margin: 0px 0px 50px 0px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	font-weight: 400;
+	color: #3d2514;
+	text-transform: uppercase;
+}
+.boo_form{}
+.all_input{
+	margin: 30px 30px 0px 0px;
+	padding: 0px 30px;
+	outline: none;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: #3d3d3d;
+	width: 280px;
+	height: 65px;
+	border: none;
+	box-shadow: 0px 0px 10px 0px rgb(77 77 77 / 50%);
+}
+
+.mr_l{
+	margin-left: -30px;
+}
+
+.fom_btn{
+	width: 342px;
+	height: 65px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	background-color: #DF1C1C;
+	border: none;
+	transition: .3s;
+	cursor: pointer;
+
+}
+.fom_btn:hover{
+	background-color: #3d2514;
+}
+.body_img img{
+	width: 250px;
+}
+.bimg_1{
+	position: absolute;
+	top: -5%;
+	left: 0%;
+}
+.bimg_2{
+	position: absolute;
+	top: 28%;
+	left: 6%;
+}
+.bimg_3{
+	position: absolute;
+	bottom: -32%;
+	right: 0%;
+
+}
+/*booking part end*/
+/*footer part start*/
+.footer{
+	margin: 80px 0px 50px 0px;
+	
+}
+.f_bg{
+	padding: 45px;
+	width: 87%;
+	background: url(../images/footer_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.footer_content{
+	margin: 45px 0px 60px 0px;
+	overflow: hidden;
+}
+.foo_top{}
+.foo_left{
+	width: 40%;
+	float: left;
+}
+.foo_img{
+	width: 70%;
+}
+.foo_img img{
+	width: 100%;
+}
+.foo_left p{
+	margin: 35px 0px;
+	color: #ffffff;
+}
+.foo_right{
+	margin-right: 10%;
+	margin-top: 130px;
+	width: 30%;
+	float: right;
+}
+.foo_right ul{
+	margin: 0;
+
+}
+.foo_right ul li{
+	margin-bottom: 15px;
+	list-style: none;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.foo_right ul li img{
+	margin-right: 30px;
+	width: 25px;
+}
+.foo_bottom{
+	padding-top: 30px;
+	overflow: hidden;
+}
+.bot_left{
+	width: 40%;
+	float: left;
+}
+.bot_left p{
+	margin: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.bot_right{
+	width: 30%;
+	float: right;
+}
+.bot_right ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.bot_right ul li{
+	list-style: none;
+	float: left;
+}
+.bot_right ul li a{
+	margin-left: 20px;
+}
+.bot_right ul li a img:hover{
+	margin-top: -5px;
+}
+.bot_right ul li a img{
+	width: 25px;
+	transition: .3s;
+}
+/*footer part end*/
